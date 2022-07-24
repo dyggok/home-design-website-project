@@ -18,7 +18,7 @@ function MainPage(props){
     setTimeout(() => {
       setCurrenctProducts(productsData.results.products.slice(indexOfFirstProduct, indexOfLastProduct));
       setIsLoading(false);
-    }, "100");
+    }, "500");
   }, [currentPage]);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function MainPage(props){
       if(!localStorage.getItem("addToCart")){
         localStorage.setItem("addToCart", "");
       }
-    }, "500");
+    }, "1000");
     
   }, []);
 
