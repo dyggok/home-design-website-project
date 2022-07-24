@@ -22,21 +22,23 @@ function Modal(props){
     var checkInputs = false;
 
     ids.map(i => {
-      if(document.getElementById(i).type === "checkbox"){
-        if(!document.getElementById(i).checked){
-          document.getElementById("checkbox-fail").style.display = "block";
-          checkInputs = true;
+      if(!(i === "e-mail" || i === "message")){
+        if(document.getElementById(i).type === "checkbox"){
+          if(!document.getElementById(i).checked){
+            document.getElementById("checkbox-fail").style.display = "block";
+            checkInputs = true;
+          }else{
+            document.getElementById("checkbox-fail").style.display = "none";
+          }
         }else{
-          document.getElementById("checkbox-fail").style.display = "none";
-        }
-      }else{
-        if(document.getElementById(i).value === ""){
-          document.getElementById(i).classList.add("input-fail");
-          checkInputs = true;
-        }else{
-          document.getElementById(i).classList.remove("input-fail");
-        }
+          if(document.getElementById(i).value === ""){
+            document.getElementById(i).classList.add("input-fail");
+            checkInputs = true;
+          }else{
+            document.getElementById(i).classList.remove("input-fail");
+          }
       }
+    }
     })
     if(!checkInputs){
       var product = document.getElementById(code);    

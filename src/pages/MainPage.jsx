@@ -22,12 +22,12 @@ function MainPage(props){
   }, [currentPage]);
 
   useEffect(() => {
+    if(!localStorage.getItem("addToCart")){
+      localStorage.setItem("addToCart", []);
+    }
     setTimeout(() => {
       setCurrenctProducts(productsData.results.products.slice(indexOfFirstProduct, indexOfLastProduct));
       setIsLoading(false);
-      if(!localStorage.getItem("addToCart")){
-        localStorage.setItem("addToCart", "");
-      }
     }, "1000");
     
   }, []);
