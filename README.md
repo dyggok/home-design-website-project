@@ -1,6 +1,6 @@
 # Home Design WebSite 🏡
 
-<img src="https://media3.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif?cid=ecf05e47pgjzmgxm5cmhdz1pmhgximi2ignfu4u590si7pqx&rid=giphy.gif&ct=g" width="350" align="right">
+<img src="https://media3.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif?cid=ecf05e47pgjzmgxm5cmhdz1pmhgximi2ignfu4u590si7pqx&rid=giphy.gif&ct=g" width="350" align="right" margin="1">
 
 ### :point_right: <a href="https://koctas.netlify.app/">Live Project</a> :point_left: ###
 
