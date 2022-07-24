@@ -1,4 +1,4 @@
-🏡 # Home Design WebSite
+# Home Design WebSite 🏡
 
 - ✔️ The wardropes taken from json file are displayed on the main page. You can find the json file in the project.
 - ✔️ There is a pagination structure on the main page. You can see the wardropes on the other page with the help of the buttons below.
