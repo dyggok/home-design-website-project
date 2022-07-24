@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #EC6E00;
+}
+
+.nav {
+  position: absolute;
+  bottom: 50px;
+  list-style: none;
+  left: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  border: 0 !important;
+}
+
+#addProduct, #notAddProduct {
+  display: none;
+}
+
+.card:hover {
+  border: 1px solid #dee2e6 !important;
+}
+
+.card:hover #addProduct {
+  display: block;
+}
+
+.card:hover #notAddProduct {
+  display: block;
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.green-card {
+  background-color: #38e635 !important;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  min-width: 800px !important;
+}
+
+.label-left {
+  float: left;
+}
+
+.input-fail {
+  border: 1px solid #dc3545 !important;
+}
+
+.carousel-indicators {
+  bottom: -15px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  display: none;
+  z-index: 1000;
+  height: 31px;
+  width: 31px;
+  color: #EC6E00;
+}
+/*# sourceMappingURL=mainCss.css.map */
